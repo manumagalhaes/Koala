@@ -1,0 +1,105 @@
+body {
+    width: 100vw;
+    height: 100wh;
+    margin: 0;
+}
+
+.container {
+    background-color: #25a9fc;
+    min-width: 600px;
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.face {
+    width: 500px;
+    height: 500px;
+    background-color: #a6becf;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.leftEar {
+    width: 250px;
+    height: 250px;
+    background-color: #a6becf;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(80%, -40%);
+}
+
+.rightEar {
+    width: 250px;
+    height: 250px;
+    background-color: #a6becf;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-80%, -40%);
+}
+
+.earInner {
+    width: 200px;
+    height: 200px;
+    background-color: #819caf;
+    border-radius: 50%;
+}
+
+#eyesContainer {
+    display: flex;
+    flex-direction: row;
+    transform: translateX(-5%);
+    padding-top: 25%;
+}
+
+.rightEye {
+    width: 220px;
+    height: 220px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(40px);
+}
+
+.leftEye {
+    width: 220px;
+    height: 220px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eyesInner {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.nose {
+    background-color: #be845f;
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    padding-top: 10%;
+    transform: translateY(-30%);
+}
+
+.leftHair {
+}
+
+.rightHair {
+}
